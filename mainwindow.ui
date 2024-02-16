@@ -27,19 +27,6 @@
      <string>0</string>
     </property>
    </widget>
-   <widget class="QTextEdit" name="textEdit">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>10</y>
-      <width>321</width>
-      <height>121</height>
-     </rect>
-    </property>
-    <property name="readOnly">
-     <bool>true</bool>
-    </property>
-   </widget>
    <widget class="QPushButton" name="One_button">
     <property name="geometry">
      <rect>
@@ -183,7 +170,7 @@
      <string>8</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="Equal_button_2">
+   <widget class="QPushButton" name="Plus_button">
     <property name="geometry">
      <rect>
       <x>250</x>
@@ -196,7 +183,7 @@
      <string>+</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="Equal_button_3">
+   <widget class="QPushButton" name="Minus_button">
     <property name="geometry">
      <rect>
       <x>250</x>
@@ -209,7 +196,7 @@
      <string>-</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="Equal_button_4">
+   <widget class="QPushButton" name="Multip_button">
     <property name="geometry">
      <rect>
       <x>250</x>
@@ -222,7 +209,7 @@
      <string>x</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="Equal_button_5">
+   <widget class="QPushButton" name="Division_button">
     <property name="geometry">
      <rect>
       <x>250</x>
@@ -235,7 +222,7 @@
      <string>÷</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="Nine_button_2">
+   <widget class="QPushButton" name="Percent_button">
     <property name="geometry">
      <rect>
       <x>170</x>
@@ -248,7 +235,7 @@
      <string>%</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="Nine_button_3">
+   <widget class="QPushButton" name="Negative_button">
     <property name="geometry">
      <rect>
       <x>90</x>
@@ -261,7 +248,7 @@
      <string>+/-</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="Nine_button_4">
+   <widget class="QPushButton" name="Ac_button">
     <property name="geometry">
      <rect>
       <x>10</x>
@@ -272,6 +259,19 @@
     </property>
     <property name="text">
      <string>Ac</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>321</width>
+      <height>121</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>0</string>
     </property>
    </widget>
   </widget>
