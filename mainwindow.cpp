@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 
+double num_first ;
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -20,7 +21,16 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->Seven_button,SIGNAL(clicked(bool)), this , SLOT(digits_numbers()));
     connect(ui->Eight_button,SIGNAL(clicked(bool)), this , SLOT(digits_numbers()));
     connect(ui->Nine_button,SIGNAL(clicked(bool)), this , SLOT(digits_numbers()));
-    connect(ui->Plus_button,SIGNAL(clicked(bool)), this , SLOT(plus_numbers()));
+    connect(ui->Plus_button,SIGNAL(clicked(bool)), this , SLOT(math_operations()));
+    connect(ui->Division_button,SIGNAL(clicked(bool)), this , SLOT(math_operations()));
+    connect(ui->Minus_button,SIGNAL(clicked(bool)), this , SLOT(math_operations()));
+    connect(ui->Multip_button,SIGNAL(clicked(bool)), this , SLOT(math_operations()));
+
+    ui->Multip_button->setCheckable(true);
+    ui->Division_button->setCheckable(true);
+    ui->Minus_button->setCheckable(true);
+    ui->Plus_button->setCheckable(true);
+
 }
 
 MainWindow::~MainWindow()
@@ -39,9 +49,12 @@ void MainWindow::digits_numbers(){
 
     ui -> label->setText(new_label);
 }
-void MainWindow::plus_numbers(){
+void MainWindow::math_operations(){
 
-
+    QPushButton * button = (QPushButton * )sender() ;
+    num_first = ui->label->text().toDouble() ;
+    ui->label->setText(" ");
+    button->setCheckable(true);
 }
 
 
@@ -73,4 +86,46 @@ void MainWindow::operations()
 }
 
 
+
+
+void MainWindow::on_Equal_button_clicked()
+{
+    double num_second , label_number ;
+    QString new_label ;
+    num_second = ui->label->text().toDouble() ;
+    if(ui->Plus_button->isChecked()){
+         label_number = num_first + num_second  ;
+        new_label = QString::number(label_number , 'g' , 15);
+
+        ui -> label->setText(new_label);
+        ui->Plus_button->setChecked(false);
+    }else     if(ui->Minus_button->isChecked()){
+        label_number = num_first - num_second  ;
+        new_label = QString::number(label_number , 'g' , 15);
+
+        ui -> label->setText(new_label);
+        ui->Minus_button->setChecked(false);
+
+    }else     if(ui->Division_button->isChecked()){
+        if(num_second == 0 || num_first == 0 ){
+            ui -> label->setText("Не делится на ноль");
+            ui->Division_button->setChecked(false);
+        }else {
+             label_number = num_first / num_second  ;
+        new_label = QString::number(label_number , 'g' , 15);
+
+        ui -> label->setText(new_label);
+        ui->Division_button->setChecked(false);
+        }
+
+}   else     if(ui->Multip_button->isChecked()){
+        label_number = num_first * num_second  ;
+        new_label = QString::number(label_number , 'g' , 15);
+
+        ui -> label->setText(new_label);
+        ui->Multip_button->setChecked(false);
+
+}
+
+}
 
