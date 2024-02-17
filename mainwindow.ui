@@ -6,9 +6,21 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>342</width>
+    <width>341</width>
     <height>498</height>
    </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>341</width>
+    <height>498</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>341</width>
+    <height>498</height>
+   </size>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
@@ -23,6 +35,14 @@
       <height>71</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border: 1px solid gray;
+}
+QPushButton-pressed{
+background-color:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0#dadbde,stop:1#f6F7Fa)
+}</string>
+    </property>
     <property name="text">
      <string>0</string>
     </property>
@@ -35,6 +55,14 @@
       <width>81</width>
       <height>71</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border: 1px solid gray;
+}
+QPushButton-pressed{
+background-color:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0#dadbde,stop:1#f6F7Fa)
+}</string>
     </property>
     <property name="text">
      <string>1</string>
@@ -49,6 +77,14 @@
       <height>71</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border: 1px solid gray;
+}
+QPushButton-pressed{
+background-color:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0#dadbde,stop:1#f6F7Fa)
+}</string>
+    </property>
     <property name="text">
      <string>2</string>
     </property>
@@ -61,6 +97,14 @@
       <width>81</width>
       <height>71</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border: 1px solid gray;
+}
+QPushButton-pressed{
+background-color:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0#dadbde,stop:1#f6F7Fa)
+}</string>
     </property>
     <property name="text">
      <string>3</string>
@@ -75,6 +119,16 @@
       <height>71</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background:rgb(215,215,215);
+border: 1px solid gray;
+}
+QPushButton-pressed{
+background-color:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0
+#bebebe,stop:1#D7D7D7)
+}</string>
+    </property>
     <property name="text">
      <string>.</string>
     </property>
@@ -87,6 +141,17 @@
       <width>81</width>
       <height>71</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background:rgb(215,115,57);
+color: white ;
+border: 1px solid gray;
+}
+QPushButton-pressed{
+background-color:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0
+#FF7832,stop:1#FF9739)
+}</string>
     </property>
     <property name="text">
      <string>=</string>
@@ -101,6 +166,14 @@
       <height>71</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border: 1px solid gray;
+}
+QPushButton-pressed{
+background-color:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0#dadbde,stop:1#f6F7Fa)
+}</string>
+    </property>
     <property name="text">
      <string>6</string>
     </property>
@@ -113,6 +186,14 @@
       <width>81</width>
       <height>71</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border: 1px solid gray;
+}
+QPushButton-pressed{
+background-color:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0#dadbde,stop:1#f6F7Fa)
+}</string>
     </property>
     <property name="text">
      <string>4</string>
@@ -127,6 +208,14 @@
       <height>71</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border: 1px solid gray;
+}
+QPushButton-pressed{
+background-color:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0#dadbde,stop:1#f6F7Fa)
+}</string>
+    </property>
     <property name="text">
      <string>5</string>
     </property>
@@ -139,6 +228,14 @@
       <width>81</width>
       <height>71</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border: 1px solid gray;
+}
+QPushButton-pressed{
+background-color:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0#dadbde,stop:1#f6F7Fa)
+}</string>
     </property>
     <property name="text">
      <string>9</string>
@@ -153,6 +250,14 @@
       <height>71</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border: 1px solid gray;
+}
+QPushButton-pressed{
+background-color:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0#dadbde,stop:1#f6F7Fa)
+}</string>
+    </property>
     <property name="text">
      <string>7</string>
     </property>
@@ -165,6 +270,14 @@
       <width>81</width>
       <height>71</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border: 1px solid gray;
+}
+QPushButton-pressed{
+background-color:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0#dadbde,stop:1#f6F7Fa)
+}</string>
     </property>
     <property name="text">
      <string>8</string>
@@ -179,6 +292,17 @@
       <height>71</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background:rgb(215,115,57);
+color: white ;
+border: 1px solid gray;
+}
+QPushButton-pressed{
+background-color:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0
+#FF7832,stop:1#FF9739)
+}</string>
+    </property>
     <property name="text">
      <string>+</string>
     </property>
@@ -191,6 +315,17 @@
       <width>81</width>
       <height>71</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background:rgb(215,115,57);
+color: white ;
+border: 1px solid gray;
+}
+QPushButton-pressed{
+background-color:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0
+#FF7832,stop:1#FF9739)
+}</string>
     </property>
     <property name="text">
      <string>-</string>
@@ -205,6 +340,17 @@
       <height>71</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background:rgb(215,115,57);
+color: white ;
+border: 1px solid gray;
+}
+QPushButton-pressed{
+background-color:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0
+#FF7832,stop:1#FF9739)
+}</string>
+    </property>
     <property name="text">
      <string>x</string>
     </property>
@@ -217,6 +363,17 @@
       <width>81</width>
       <height>71</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background:rgb(215,115,57);
+color: white ;
+border: 1px solid gray;
+}
+QPushButton-pressed{
+background-color:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0
+#FF7832,stop:1#FF9739)
+}</string>
     </property>
     <property name="text">
      <string>÷</string>
@@ -231,6 +388,16 @@
       <height>71</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background:rgb(215,215,215);
+border: 1px solid gray;
+}
+QPushButton-pressed{
+background-color:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0
+#bebebe,stop:1#D7D7D7)
+}</string>
+    </property>
     <property name="text">
      <string>%</string>
     </property>
@@ -243,6 +410,16 @@
       <width>81</width>
       <height>71</height>
      </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background:rgb(215,215,215);
+border: 1px solid gray;
+}
+QPushButton-pressed{
+background-color:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0
+#bebebe,stop:1#D7D7D7)
+}</string>
     </property>
     <property name="text">
      <string>+/-</string>
@@ -257,6 +434,16 @@
       <height>71</height>
      </rect>
     </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+background:rgb(215,215,215);
+border: 1px solid gray;
+}
+QPushButton-pressed{
+background-color:qlineargradient(x1:0,y1:0,x2:0,y2:1,stop:0
+#bebebe,stop:1#D7D7D7)
+}</string>
+    </property>
     <property name="text">
      <string>Ac</string>
     </property>
@@ -269,6 +456,19 @@
       <width>321</width>
       <height>121</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Segoe MDL2 Assets</family>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel {
+qproperty-alignment:'AlignVCenter | AlignRight' ;
+ border : 1px solid gray;
+}
+background-color : white;</string>
     </property>
     <property name="text">
      <string>0</string>
