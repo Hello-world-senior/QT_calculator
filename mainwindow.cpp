@@ -129,3 +129,9 @@ void MainWindow::on_Equal_button_clicked()
 
 }
 
+
+void MainWindow::on_Ac_button_clicked()
+{
+    ui -> label->setText(" ");
+}
+

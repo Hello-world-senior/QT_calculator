@@ -26,5 +26,6 @@ private slots :
         void on_Dot_button_clicked();
         void operations();
         void on_Equal_button_clicked();
+        void on_Ac_button_clicked();
 };
 #endif // MAINWINDOW_H
